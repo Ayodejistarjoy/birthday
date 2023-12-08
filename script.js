@@ -21,6 +21,7 @@ function press() {
         end.style.display ='block'
         end.innerHTML = "wait till your birthday"
         hello.innerHTML = "Hello, welcome " + first + " ....."
+        img.style.display = 'none'
     }
     document.getElementById('firstName').value = ''
     document.getElementById('lastName').value = ''
