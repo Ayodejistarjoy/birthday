@@ -8,7 +8,7 @@ function press() {
     if( first == '' && second == ''){
           confirm ("FILL UP PLEASE")
     }
-    else if ( first == 'dorcas' && second == "oyedeji"){
+    else if ( first == "dorcas" && second == "oyedeji"){
         
         console.log("continue");
         img.style.display = 'block'
