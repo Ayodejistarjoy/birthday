@@ -17,6 +17,24 @@ function press() {
         hello.innerHTML = "Hello, welcome " +  first + " ....."
 
     }
+    else if ( first == "DORCAS" && second == "OYEDEJI"){
+        
+        console.log("continue");
+        img.style.display = 'block'
+        end.style.display = 'block'
+        end.innerHTML =  " Happy Birthday," + first + " ! 🎉💖 Your presence fills my life with joy and warmth every day. On your special day, I wish you endless happiness, love, and all the beautiful things life has to offer. Cheers to another year of wonderful moments. I love you more than words can express. Here's to celebrating you today and always. Happy Birthday, my dear!" 
+        hello.innerHTML = "Hello, welcome " +  first + " ....."
+
+    }
+    else if ( first == "Dorcas" && second == "Oyedeji"){
+        
+        console.log("continue");
+        img.style.display = 'block'
+        end.style.display = 'block'
+        end.innerHTML =  " Happy Birthday," + first + " ! 🎉💖 Your presence fills my life with joy and warmth every day. On your special day, I wish you endless happiness, love, and all the beautiful things life has to offer. Cheers to another year of wonderful moments. I love you more than words can express. Here's to celebrating you today and always. Happy Birthday, my dear!" 
+        hello.innerHTML = "Hello, welcome " +  first + " ....."
+
+    }
     else{
         end.style.display ='block'
         end.innerHTML = "wait till your birthday"
